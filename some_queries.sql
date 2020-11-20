@@ -17,4 +17,20 @@ SELECT *
 From Recipe r
 JOIN RecipeIngredient ri on ri.recipe_id = r.id  
 JOIN Ingredient i on i.id = ri.ingredient_id 
-WHERE i.name = ???
+WHERE i.name = 'eggs'
+
+
+--updating the database 
+
+UPDATE recipe_id
+SET column1 = Tea , column2 = omlet , column3 = electrlyte drink , column4=sugary drink, column5 = choco-milk
+
+UPDATE ingredient_id
+SET column1='3';column1='4';column1='5';column1='6';column1='7';
+
+UPDATE measure_id
+SET column2='NULL';column1='5';column1='';column1='3';column1='1';
+
+UPDATE amount
+SET Column3='null';column1='';column1='null';column1='1';column1='null';
+
