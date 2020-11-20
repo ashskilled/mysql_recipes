@@ -16,7 +16,7 @@ create table RecipeIngredient (recipe_id INT NOT NULL, ingredient_id INT NOT NUL
 	CONSTRAINT fk_measure FOREIGN KEY(measure_id) REFERENCES Measure(id)) 
 	ENGINE=InnoDB DEFAULT CHARSET=utf8; 
 
---Data created 
+--Data instruction of food created 
 INSERT INTO measure (name) VALUES('CUP'), ('TEASPOON'), ('TABLESPOON'), ('WHOLE'),('SINGLE');
 
 INSERT INTO Ingredient (name) VALUES('egg'), ('salt'), ('sugar'), ('chocolate'), ('vanilla extract'), ('flour') ('water'),('chicken'),('milk');
